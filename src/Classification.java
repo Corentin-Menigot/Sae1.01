@@ -341,8 +341,8 @@ public class Classification {
 
         //Chargement des dépêches en mémoire
         System.out.println("chargement des dépêches");
-        ArrayList<Depeche> depeches = lectureDepeches("./depeches.txt");
-        ArrayList<Depeche> test = lectureDepeches("./test.txt");
+        ArrayList<Depeche> depeches = lectureDepeches("./Sae1.012-master/depeches.txt");
+        ArrayList<Depeche> test = lectureDepeches("./Sae1.012-master/test.txt");
 
         //initialisation des lexiques
         System.out.println("Initialisation des lexiques");
